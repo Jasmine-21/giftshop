@@ -4,7 +4,7 @@ import Login from './Login'
 import Account from './Account'
 
 const MainBlock=styled.div`
-height: calc(100% - 6em)
+height: calc(100% - 6em);
 width:100%;
 display:flex;
 box-sizing: border-box;

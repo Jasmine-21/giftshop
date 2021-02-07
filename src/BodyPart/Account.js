@@ -3,34 +3,62 @@ import styled from 'styled-components'
 
 
 const MainBlock=styled.form`
-height:40%;
+width:50%;
+height:70%;
 display:flex;
 flex-direction:column;
 width:20%;
 margin-top:1%;
-margin-left:10%;
+box-sizing: border-box;
+border:1px solid grey;
 `
 const FirstPart=styled.div`
-width:3%
-background-color:rgb(211,211,211);
+width:100%;
+background-color:light grey;
+box-sizing:border-box;
+align-self: center;
 `
-const SecondPart=styled.div``
+const SecondPart=styled.div`
+display:flex;
+flex-direction:column;
+`
 const Email=styled.p`
 float:left;
 display:flex;
+margin-left:0.8em;
 `
 const Pswd=styled.p`
-margin-top:2%;
+margin-top:3%;
 float:left;
+margin-left:0.8em;
 display:flex;
 `
 const Heading=styled.p`
 text-align:center;
 background-color:grey;
 align-self:center;
+
 `
 const Input=styled.input`
-width:100%;
+width:90%;
+align-self:center;
+
+`
+
+const ThirdPart=styled.button`
+display:flex;
+width:50%;
+align-self:center;
+margin-top:2em;
+background-color:pink;
+color:white;
+border:1px solid white;
+justify-content:center;
+`
+const FourthPart=styled.p`
+align-self:center;
+margin-top:3%;
+font-size:0.55em;
 `
 class Login extends React.Component{
     render()
@@ -38,7 +66,7 @@ class Login extends React.Component{
         return(
             <MainBlock>
                 <FirstPart>
-                <Heading>Create Account</Heading>
+                <Heading>Login</Heading>
                 </FirstPart>
                 <SecondPart>
                     <Email>Email</Email>
@@ -46,6 +74,10 @@ class Login extends React.Component{
                     <Pswd>Pasword</Pswd>
                     <Input/>
                 </SecondPart>
+                <ThirdPart>
+                    SIGN - IN
+                </ThirdPart>
+                <FourthPart>Forgot your password ?</FourthPart>
             </MainBlock>
         )
     }

@@ -8,6 +8,7 @@ display:flex;
 flex-direction:column;
 width:100%;
 height:6em;
+box-sizing:border-box;
 `
 class Heading extends React.Component{
     render(){
