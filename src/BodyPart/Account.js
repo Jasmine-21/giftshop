@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const MainBlock=styled.form`
 width:50%;
-height:70%;
+height:80%;
 display:flex;
 flex-direction:column;
 width:20%;
@@ -66,18 +66,22 @@ class Login extends React.Component{
         return(
             <MainBlock>
                 <FirstPart>
-                <Heading>Login</Heading>
+                <Heading>Create  Account</Heading>
                 </FirstPart>
                 <SecondPart>
-                    <Email>Email</Email>
+                    <Email>First Name</Email>
                     <Input/>
-                    <Pswd>Pasword</Pswd>
+                    <Pswd>Last Name</Pswd>
+                    <Input/>
+                    <Pswd>Email</Pswd>
+                    <Input/>
+                    <Pswd>Password</Pswd>
                     <Input/>
                 </SecondPart>
                 <ThirdPart>
-                    SIGN - IN
+                   CREATE
                 </ThirdPart>
-                <FourthPart>Forgot your password ?</FourthPart>
+                
             </MainBlock>
         )
     }

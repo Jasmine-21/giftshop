@@ -3,13 +3,11 @@ import styled from 'styled-components'
 
 
 const MainBlock=styled.form`
-width:50%;
 height:70%;
 display:flex;
 flex-direction:column;
 width:20%;
 margin-top:1%;
-box-sizing: border-box;
 border:1px solid grey;
 `
 const FirstPart=styled.div`
