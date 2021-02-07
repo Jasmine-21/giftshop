@@ -11,7 +11,7 @@ width:100%;
 height:2em;
 `
 const LeftBlock=styled.div`
-width:50%;
+width:70%;
 height:50%;
 flex-direction:row;
 display:flex;
@@ -20,7 +20,7 @@ margin-left:5px;
 flex-wrap:wrap;
 `
 const RightBlock=styled.div`
-width:50%;
+width:30%;
 height:50%;
 flex-direction:row;
 justify-content: space-between;
@@ -30,14 +30,15 @@ float:right
 const Description=styled.text`
 text-align:center;
 align-self: center;
+margin-left:0.3em;
 `
 const Image=styled.img`
-width:0.9em;
+width:0.7em;
 align-self: center;
 `
 const Parts=styled.div`
 display:flex;
-flex-direction:row
+flex-direction:row;
 `
 const Part1=styled.div`
 display:flex;

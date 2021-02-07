@@ -6,9 +6,8 @@ import Account from './Account'
 const MainBlock=styled.div`
 height: calc(100% - 6em);
 width:100%;
-display:flex;
-box-sizing: border-box;
 justify-content:space-around;
+display:flex;
 flex-direction:row;
 `
 class Body extends React.Component{

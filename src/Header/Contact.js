@@ -12,8 +12,9 @@ width:100%;
 height:2em;`
 
 const Leftblock = styled.div`
-width:30%;
-height:50%;
+width:40%;
+height:2em;
+align-self:center;
 flex-direction:row;
 display:flex;
 float:left;
@@ -26,7 +27,7 @@ align-self:center;
 
 
 const RightBlock = styled.div`
-width:40%;
+width:30%;
 height:50%;
 flex-direction:row;
 justify-content: space-between;
@@ -42,7 +43,7 @@ align-self: center;`
 
 const GiftImage = styled.img`
 margin-left:6%;
-width:10%;
+width:4%;
 align-self: center;`
 
 const Description = styled.text`
@@ -52,7 +53,6 @@ align-self: center;`
 const GiftDescription = styled.text`
 color:pink;
 font-family:Arial;
-margin-top:3%;
 text-align:center;
 align-self: center;`
 
